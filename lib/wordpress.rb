@@ -1,3 +1,6 @@
+require 'rails'
+require 'wordpress/engine'
+
 module Wordpress
 
   mattr_accessor :styles

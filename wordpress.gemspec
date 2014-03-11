@@ -12,8 +12,9 @@ Gem::Specification.new do |s|
   s.description = %q{Use Ruby on Rails for the front-end of your Wordpress installation.}
   s.email       = %q{justin@jgrubbs.net}
   s.homepage    = %q{http://github.com/jGRUBBS/wordpress-rails}
-
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
+
+  s.add_dependency 'rails'
 
 end
