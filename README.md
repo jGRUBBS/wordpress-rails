@@ -3,6 +3,28 @@ wordpress-rails
 
 Wordpress on Rails
 
+### INSTALL
+
+```ruby
+gem 'wordpress-rails', git: 'https://github.com/jGRUBBS/wordpress-rails'
+```
+
+### EXAMPLES
+
+Get all posts
+```ruby
+posts = Wordpress::Post.all
+```
+
+Find post
+```ruby
+post = Wordpress::Post.find(29)
+```
+
+Get post images
+```ruby
+post.images
+```
 
 | Tables                 | Models                                                 |
 | ---------------------- | ------------------------------------------------------ |
