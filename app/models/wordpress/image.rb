@@ -9,7 +9,7 @@ module Wordpress
     ) }
 
     def asset(style = nil)
-      style.nil? ? image_path : File.join(File.dirname(image_path), styles[style]["file"])
+      style.nil? ? image_path : File.join(File.dirname(image_path), styles[style.to_s]["file"])
     end
 
     def image_path
