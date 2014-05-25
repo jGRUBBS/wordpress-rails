@@ -9,7 +9,7 @@ module Wordpress
       config.root.join('lib'),
       config.root.join('lib/middleware'),
       config.root.join('app/controllers/concerns'),
-      config.root.join('app/models/concerns')
+      config.root.join('app/models/wordpress')
     ]
 
   end
